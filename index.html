@@ -126,5 +126,64 @@
             <img src="media/images/parciales/uno/p9.png" alt="" srcset="" width="700px">
         </article>
     </section>
+    <section>
+        <h1>Clase 5 (10-10-2024)</h1>
+        <article>
+            <h3>Analisís del codigo del archivo "tictactoe.py"</h3>
+            <p>En este caso se usa una herramienta que usa inteligencia artificial llamada "ChatGPT" para que nos indique el funcionamiento del codigo.</p>
+            <h3>Lo que nos dice "ChatGPT" fue lo siguiente:</h3>
+            <p>"El código que has proporcionado implementa un juego de Tres en Raya (o Tic-Tac-Toe) en Python, donde un jugador humano se enfrenta a la computadora. Aquí tienes un desglose del proceso:"</p>
+            <ol>
+                <li>
+                    <b>Definición de Constantes y Tablero:</b>
+                    <ul>
+                        <li>Se definen dos constantes: <b>HUMANO</b> y <b>COMPUTADORA</b>, que representan a los jugadores.</li>
+                        <li>Se inicializa un tablero vacío (una lista de listas) donde cada celda contiene un 0, indicando que está libre.</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Funciones para el Juego:</b>
+                    <ul>
+                        <li><b>ganador(tablero, jugador):</b> Verifica si el jugador especificado ha ganado. Comprueba todas las combinaciones posibles (filas, columnas y diagonales) para ver si hay tres en línea.</li>
+                        <li><b>tablero_lleno(tablero):</b> Comprueba si el tablero está lleno, es decir, si no quedan celdas libres.</li>
+                        <li><b>evaluar(tablero):</b> Evalúa el estado del juego. Devuelve 1 si gana la computadora, -1 si gana el humano, y 0 si hay empate.</li>
+                        <li><b>minimax(tablero, profundidad, jugador):</b> Implementa el algoritmo Minimax, que es una técnica de toma de decisiones. La función evalúa todos los posibles movimientos y devuelve el valor óptimo para el jugador actual. Busca maximizar la puntuación para la computadora y minimizarla para el humano.</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Movimiento de la Computadora:</b>
+                    <ul>
+                        <li><b>movimiento_computadora(tablero):</b> Determina el mejor movimiento para la computadora usando el algoritmo Minimax. Itera sobre todas las celdas vacías, simula un movimiento y calcula el valor resultante, eligiendo el movimiento que maximiza la puntuación.</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Interacción con el Usuario:</b>
+                    <ul>
+                        <li><b>imprimir_tablero(tablero):</b> Imprime el tablero en la consola para que el usuario lo vea.</li>
+                        <li><b>juego():</b> Controla el flujo del juego. Alterna entre el turno del humano y el de la computadora. Pide al usuario que introduzca su movimiento, verifica si es válido, y después ejecuta el movimiento de la computadora. También verifica si hay un ganador o un empate después de cada movimiento.</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Ejecución del Juego:</b>
+                    <ul>
+                        <li>Al final, se llama a la función <b>juego()</b> para iniciar el juego.</li>
+                    </ul>
+                </li>
+            </ol>
+            <p>"En resumen, el código permite a un humano jugar contra una computadora que utiliza una estrategia óptima para ganar o empatar. Implementa la lógica del juego, la verificación de ganadores y el algoritmo Minimax para tomar decisiones en los movimientos de la computadora."</p>
+        </article>
+        <article>
+            <h3>Prueba de autoconocimiento #1</h3>
+            <p>Para el desarrollo de la prueba se ingresó al siguiente enlace <a href="https://www.miproximopaso.org/explore/ip" target="_blank">Ir al test</a>.</p>
+            <p>Nos indicó lo siguiente al finalizar la encuesta, <a href="https://drive.google.com/file/d/1jBp2Ov6kbvEsDOuzBdcaoiXNM42Re7ZQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver PDF en drive</a>.</p>
+            <iframe src="media/documents/perfilIntereses_test1.pdf" frameborder="0" height="500px" width="100%"></iframe>
+        </article>
+        <article>
+            <h3>Prueba de autoconocimiento #2</h3>
+            <p>Para el desarrollo de la prueba se ingresó al siguiente enlace <a href="" target="_blank">Ir al test</a>.</p>
+            <p>Nos indicó lo siguiente al finalizar la encuesta, <a href="https://drive.google.com/file/d/1Dgn2IZWu-Zyk7-yQfmIVZhaxlLxX4NzC/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver PDF en drive</a>.</p>
+            <iframe src="media/documents/perfilIntereses_test2.pdf" frameborder="0" height="500px" width="100%"></iframe>
+        </article>
+    </section>
 </body>
 </html>
